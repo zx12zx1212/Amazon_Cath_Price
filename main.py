@@ -10,7 +10,7 @@ def lineNotifyMessage(product_list):
         str = '\n商品名稱：{}\n價格：{}\n'.format(tmp.strip(), i[1])
         str_list.append(str)
     headers = {
-        "Authorization": "Bearer qtJnEH1m3P2hCIqdd5ToVYZHCHz7hZxlAQYyzr5sMCg",
+        "Authorization": "",
         "Content-Type": "application/x-www-form-urlencoded"
     }
 
